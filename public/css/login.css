@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+	width: 40%;
+	margin: auto;
+	background: lightblue;
+	padding: 50px;
+	margin-top: 60px;
+	border-radius: 60px;
+}
+h1 {
+    padding-bottom: 30px;
+}
+.first-input input{
+	width: 100%;
+	margin-bottom: 25px;
+	border-radius: 25px;
+	padding-left: 40px;
+	font-size: 18px;
+	border: none;
+	height: 60px;
+}
+.first-input  input:focus {
+	outline: none;
+	box-shadow: 2px 5px 5px 3px #ccc;
+}
+.second-input input{
+	width: 100%;
+	margin-bottom: 25px;
+	border-radius: 25px;
+	padding-left: 40px;
+	font-size: 18px;
+	border: none;
+	height: 60px;
+}
+.second-input  input:focus {
+	outline: none;
+	box-shadow: 2px 5px 5px 3px #ccc;
+}
+.bottum input{
+    width: 5%;
+}
+form button {
+	width: 100%;
+	padding: 15px;
+	border-radius: 25px;
+	margin-top: 30px;
+	background: #f1f0f0;
+	color: black;
+	font-size: 18px;
+	cursor: pointer;
+	border: none;
+}
+.bottum {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.bottum a {
+    float: right;
+}
+form a{
+    text-decoration: none;
+}
+.creat-account {
+    text-align: center;
+    margin-top: 25px;
+}
+.first-input, .second-input{
+    position: relative;
+}
+.icon-user, .icon-password{
+	position: absolute;
+	top: 22px;
+	left: 12px;
+}
+#email-error {
+	color: red;
+	font-size: 21px;
+	position: absolute;
+	top: 58px;
+	left: 32px;
+}
+#password-error {
+	position: absolute;
+	left: 41px;
+	top: 65px;
+	color: red;
+	font-size: 20px;
+}
+
+
+/* messages css*/
+
+.error{
+	color:red;
+}
+/* messages css*/
+
+.success-message{
+	color: green;
+	padding: 10px;
+	border: 2px solid green;
+    font-size: 18px;
+}
+.error-message{
+	color: red;
+	padding: 10px;
+	border: 2px solid red;
+	font-size: 18px;
+}
