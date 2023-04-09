@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+header .menu-button button span {
+    width: 30px;
+    padding: 2px;
+    background: #000;
+    margin-top: 5px;
+    display: block;
+}
+.menu-button button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+header .menu-button button span:first-child {
+    margin-top: 0;
+}
+header .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    list-style: none;
+}
+header li{
+    display: inline;
+    padding-right: 20px;
+}
+.input-search input{
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 30px;
+    border: 3px solid #ccc;
+}
+.menu-button {
+    padding-left: 30px;
+}
+.input-search{
+    position: relative;
+}
+.icon-search{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+.section{
+    width: 100%;
+    float: left;
+}
+.section nav{
+    width: 25%;
+    float: left;
+    background-color: #613ed0;
+    color: white;
+    border-radius: 0 50px 0 0;
+    padding: 30px;
+    position: relative;
+    padding-bottom: 80px;
+   
+}
+.section nav a i{
+    color: white;
+    margin-right: 10px  ;
+}
+.section .banner{
+    width: 75%;
+    float: left;
+    padding: 20px;
+}
+.section nav ul li a {
+	padding: 13px 20px;
+	display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.section nav li{
+    list-style: none;
+}
+nav h3,p{
+    padding-left: 25px;
+    padding-bottom:5px;
+}
+
+.section .banner .addbatan{
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section .banner .addbatan button{
+   padding: 5px;
+   background-color:#613ed0;
+   border: 1px solid #000;
+   color: #fff;
+   border-radius: 10px;
+}
+.section .banner ul li a{
+    color: #000;
+    list-style: none;
+}
+.section .banner ul li{
+    list-style: none;
+    display: inline-block;
+}
+.section .banner ul li a {
+	text-decoration: none;
+	font-weight: 600;
+	padding: 12px 40px 17px 0px;
+	display: block;
+}
+.addbatan div label{
+    font-weight: 700;
+}
+
+.addbatan div input{
+padding: 5px;
+border-radius:5px; 
+}
+.banner table{
+    width: 100%;
+    float: left;
+}
+.banner table tr th,td {
+	padding: 10px 35px;
+}
+.banner table tr td #left {
+	background-color: #613ed0;
+	padding: 5px;
+    border-radius: 6px;
+}
+.banner table tr td #right {
+	background-color: red;
+	padding: 5px;
+    border-radius: 6px;
+}
+.banner table tr td i{
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav span{
+    position: absolute;
+    bottom: 25px;
+    left: 46px;
+}
+
+nav span a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container{
+    width: 100%;
+}
+
+.icon-email {
+    font-weight: 600;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.icon-left-margin {
+    margin-left: 23px;
+}
+.pages nav {
+    width: auto;
+    
+    background-color: white;
+    border-radius: 0 50px 0 0;
+}
+
+.pagination > li > a, .pagination > li > span {
+    position: revert;
+    padding: 6px 12px;
+}
+.user-image {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    left: 60px;
+}
+  .user-image h3 {
+    padding: 0;
+}
+.banner-image {
+    position: relative;    
+}
+.banner-image img{
+    width: 100%;
+    border-radius:25px;
+}
+.user-image img {
+    width: 85px;
+    border-radius: 100%;
+}
+/* messages css*/
+
+.success-message{
+	color: green;
+	padding: 10px;
+	border: 2px solid green;
+    font-size: 18px;
+}
+.error-message{
+	color: red;
+	padding: 10px;
+	border: 2px solid red;
+	font-size: 18px;
+}
+.banner hr{
+    margin-bottom: 20px;
+}
+.banner .addbatan button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* add-students css*/
+
+/* .full{width: 100%;float:left;border:1px solid #fff;background-image: linear-gradient(#61c0f8, #ec9ccf);padding: 10px;}
+body form input{margin: 10px 0;}
+
+#a1{margin-right: 50px;}
+label.error{font-size: 10px;color: red;padding-left: 10px;}
+body .full label,tr,td{font-size: 18px;}
+#edit{background-color: green;border-style: none;}
+#delete{background-color: red;border-style: none;}
+#delete a{color: #fff;text-decoration: none;display: block;padding: 10px 4px;}
+#edit a{color: #fff;text-decoration: none;display: block;padding: 10px 4px;}
+#button {
+  cursor: pointer;
+} */
+
+
+/* add-country css*/
+
+.banner .country {
+    width: 100%;
+    float: left;
+}
+.banner .country form{
+    width: 100%;
+    float: left;
+    background-color: #61c0f8;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+body .banner .country form label, tr, td{
+    font-size: 18px;
+}
+body .banner .country form table input{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+body .banner .country form table button{
+    width: 50%;
+    padding: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+body .banner .country form table #add1,#submit1{
+    padding: 5px 23px;
+    cursor: pointer;
+    margin-top: 0px;
+    width: auto;
+}
+body .banner .country form table #add1{
+    background-color: green;
+    color: #fff;
+}
+body .banner .country form table #inner-table .remove{
+    padding: 5px 23px;
+    cursor: pointer;
+    margin-top: 0px;
+    width: auto;
+}
+body .banner .country form table #inner-table{
+    text-align: center;
+}
+body .banner .country form table .inner-table .top-bottom{
+    border-top: 2px solid black;
+}
+body .banner .country form table select{
+    text-align: center;
+    padding: 5px 30px;
+}
+.banner .country form table tr th, td {
+    padding: 10px 10px;
+}
+.banner table.table {
+    text-align: center;
+} 
+
